@@ -1,0 +1,22 @@
+{
+    "name": "ArrowPuzzle.Editor",
+    "rootNamespace": "ArrowPuzzle",
+    "references": [
+        "ArrowPuzzle.Runtime",
+        "ArrowPuzzle.Game",
+        "Unity.TextMeshPro",
+        "Unity.UGUI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
+
