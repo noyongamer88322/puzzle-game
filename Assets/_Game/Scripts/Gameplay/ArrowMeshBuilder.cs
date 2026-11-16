@@ -133,11 +133,7 @@ namespace ArrowPuzzle.Gameplay
             float halfWidth)
         {
             if (mesh == null) return;
-
-            if (ArrowPuzzle.Core.ArrowVisuals.CHEVRON_HEAD)
-                BuildChevronHeadMesh(mesh, tipWorld, direction, halfWidth, 0f);
-            else
-                BuildFilledTriangleHeadMesh(mesh, tipWorld, direction, halfWidth);
+            BuildFilledTriangleHeadMesh(mesh, tipWorld, direction, halfWidth);
         }
 
         // ── Private: Chevron (open V) head ────────────────────
